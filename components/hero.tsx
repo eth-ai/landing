@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="container flex min-h-[calc(100vh-3.5rem)] max-w-screen-2xl flex-col items-center justify-center space-y-8 py-24 text-center md:py-32">
       <Badge variant="secondary" className="mb-4">
-        ✨ Introducing Neur Agent
+        ✨ Introducing Eth.AI
       </Badge>
       <div className="space-y-4 max-w-[64rem]">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="flex gap-4">
         <Button
           size="lg"
-          className="h-12 px-6 font-medium bg-gradient-to-r from-neutral-950 to-neutral-800 hover:from-neutral-900 hover:to-neutral-700 border border-neutral-800"
+          className="h-[11.5] px-6 bg-[#627EEA] hover:bg-[#4A6FC1] text-white font-bold border border-transparent"
         >
           Getting Started
         </Button>

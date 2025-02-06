@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-neutral-800/50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="font-semibold">Neur</span>
+          <span className="font-semibold">Eth.AI</span>
         </Link>
         <nav className="flex items-center space-x-6">
           <Link href="https://github.com/neur" target="_blank" rel="noreferrer">
