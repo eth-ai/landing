@@ -9,16 +9,6 @@ export default function Navbar() {
           <span className="font-semibold">Eth.AI</span>
         </Link>
         <nav className="flex items-center space-x-6">
-          <Link href="https://github.com/neur" target="_blank" rel="noreferrer">
-            <Button variant="ghost" className="text-sm font-medium text-neutral-300 hover:text-neutral-100">
-              GitHub
-            </Button>
-          </Link>
-          <Link href="/docs">
-            <Button variant="ghost" className="text-sm font-medium text-neutral-300 hover:text-neutral-100">
-              Docs
-            </Button>
-          </Link>
           <Button variant="outline" className="border-neutral-800 hover:bg-neutral-900">
             Login
           </Button>
